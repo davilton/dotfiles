@@ -5,6 +5,8 @@ set laststatus=2
 set autowrite
 syntax on
 
+set clipboard=unnamed
+
 set tabstop=2
 set shiftwidth=2
 set textwidth=80
@@ -29,7 +31,7 @@ Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-commentary'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'nanotech/jellybeans.vim'
-
+Plugin 'rename'
 call vundle#end()							" required for Vundle
 filetype plugin indent on 		" required for Vundle
 
