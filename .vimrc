@@ -30,7 +30,9 @@ Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-commentary'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'nanotech/jellybeans.vim'
-Plugin 'rename'
+Plugin 'slim-template/vim-slim.git'
+Plugin 'wakatime/vim-wakatime'
+
 call vundle#end()							" required for Vundle
 filetype plugin indent on 		" required for Vundle
 
