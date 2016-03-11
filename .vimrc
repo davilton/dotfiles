@@ -1,3 +1,4 @@
+
 set ruler
 set showcmd
 set laststatus=2
@@ -17,7 +18,7 @@ set nocompatible			" be iMproved, required for Vundle
 filetype off					" required for Vundle
 
 " set the runtime path to include Vunde and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/vundle
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 " call vundel#begin('~/some/path/here')
