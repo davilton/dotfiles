@@ -17,6 +17,12 @@ set numberwidth=5
 set nocompatible			" be iMproved, required for Vundle
 filetype off					" required for Vundle
 
+" Explore mode style
+let g:netrw_liststyle=3
+
+" Map Explore mode to E
+command! -nargs=* -bar -bang -count=0 -complete=dir E Explore <args>
+
 " set the runtime path to include Vunde and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
