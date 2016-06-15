@@ -6,7 +6,7 @@ set autowrite
 syntax on
 
 set clipboard=unnamed
-
+set backspace=2 " make backspace work like in most other apps
 set tabstop=2
 set shiftwidth=2
 set textwidth=80
