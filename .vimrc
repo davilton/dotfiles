@@ -14,6 +14,9 @@ set colorcolumn=+1
 set number
 set numberwidth=5
 
+set autoindent
+set smartindent
+
 set nocompatible			" be iMproved, required for Vundle
 filetype off					" required for Vundle
 
@@ -38,7 +41,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'slim-template/vim-slim.git'
-Plugin 'wakatime/vim-wakatime'
+Plugin 'kchmck/vim-coffee-script'
 
 call vundle#end()							" required for Vundle
 filetype plugin indent on 		" required for Vundle
@@ -52,3 +55,5 @@ let g:ctrlp_use_caching = 0
 
 " Enable MRU for CtrlP
 let g:ctrlp_cmd = 'CtrlP'
+
+
